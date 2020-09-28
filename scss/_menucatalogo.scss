@@ -1,0 +1,143 @@
+
+/*---------------------
+  Menu Catalogo
+-----------------------*/
+
+.bg-catalogo{
+   background-color: #212529;
+}
+.p-30{
+    padding: 30px;
+}
+
+
+/* --- CATALOGO --- */
+
+.portafolio {
+	//background-color: white;
+	//border-top: 5px solid #f4623a;
+	//padding: 0 20px;
+	padding-bottom: 80px;
+}  
+
+.portafolio .titulo {
+	padding-top: 100px;
+	text-align: center;
+	color: #f89c82;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 50px;
+}
+
+.portafolio .titulo2 {
+	padding: 40px 0;
+	text-align: center;
+	color: #dee2e6;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 40px;
+}
+
+
+.portafolio .galeria .contenedor-imagen {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+	background: #f4623a;
+	border-color: #ffffff !important;
+	display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+	opacity: .3;
+}
+
+.portafolio .galeria .contenedor-imagen .sobreimagen:hover img {
+	opacity: 100%;
+}
+
+/* --- FIN DEL CATALOGO --- */
+
+
+
+
+
+//product-category
+
+.product-category{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #adb5bd;
+
+}
+
+//product-price-discount
+.product-price-discount{
+    color: #212529;
+    //text-decoration: line-through;
+    font-size: 18px;
+    padding: 0;
+}
+
+.portafolio section{
+    padding: 12px 0 17px 0;
+    text-align: center;
+    background-color: #e9ecef;
+    height: 100%;
+   
+}
+
+.portafolio h5{
+    color:#6c757d;
+    font-size: 18px;
+    
+}
+    
+
+//BUTTON IMAGEN
+
+.sobreimagen{
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	text-align: center;
+	justify-content: center;
+} 
+
+.sobreimagen img {
+	margin-bottom: 50px;
+	margin-right: 20px;
+	border-radius: 10rem;
+	border-color: #a08b85 !important;
+	border: 5px cornsilk ;
+	background-color: #e9ecef  !important;
+	color: #212529;
+	opacity: 0%;
+}
+
+//CENTRAR TEXTO
+
+.card-text .card-subtitle .card-title{
+	text-align: center !important;
+}
+
+
+//footer
+
+.seccion1 {
+	width: 100%;
+	height: 300px;
+	background-color: #f4623a;
+	padding: 0px;
+	color: white;
+}
+
+.seccion1 h1 {
+	background-color: transparent;
+}
+
